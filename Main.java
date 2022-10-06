@@ -4,7 +4,6 @@ import java.util.Scanner;
 class Main {
     public static void main(String[] args) {
         Account account = new Account();
-
         Thread refillThread = new Thread(){
             @Override
             public void run() {
